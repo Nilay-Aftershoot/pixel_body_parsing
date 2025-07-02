@@ -7,7 +7,7 @@ from models.model_stdc import STDC
 from models.model_bisenetv2 import BiSeNetv2
 from models.model_bisenet import BiSeNet
 
-from face_dataset_with_h import FaceMask
+from dataset import FaceMask
 from loss import *
 from evaluate import evaluate
 from optimizer import Optimizer
